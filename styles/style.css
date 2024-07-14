@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    text-align: center;
+    width: 100%;
+    font: 15px 'Roboto';
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+main{
+    width: 680px;
+    margin: 0 auto;
+}
+
+section{
+    margin-top: 20px;
+}
+
+#intro{
+    width: 100%;
+    display: flex;
+    align-items: center;
+}
+
+#image-iceberg{
+    width: 190px;
+    object-fit: contain;
+    display: block;
+    border: 2px solid rgb(124, 137, 238);
+}
+
+#text-desc{
+    width: 100%;
+    margin-left: 10px;
+    line-height: 20px;
+    word-wrap: break-word;
+}
+
+#about-iceberg{
+    width: 100%;
+    line-height: 20px;
+    margin-top: 20px;
+    word-wrap: break-word;
+}
+
+#features{
+    margin-top: 20px;
+    line-height: 20px;
+    word-wrap: break-word;
+    border: 2px solid brown;
+    padding: 5px;
+}
+
+footer{
+    margin-top: 20px;
+}
+
+footer a{
+    text-decoration: none;
+    color: blue;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+footer a:hover{
+    text-decoration: underline;
+}
+
+@media(max-width: 695px){
+    body{
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+
+    main{
+        width: 100%;
+    }
+
+    #intro{
+        display: block;
+    }
+
+    #image-iceberg{
+        display: inline-block;
+        width: 240px;
+        margin-bottom: 10px;
+    }
+
+    #text-desc{
+        margin-left: 0;
+    }
+}
