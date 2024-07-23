@@ -32,7 +32,7 @@ section{
 #image-logo{
     width: 190px;
     object-fit: contain;
-    display: block;
+    display: inline-block;
 }
 
 #text-desc{
