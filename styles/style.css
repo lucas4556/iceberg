@@ -29,11 +29,10 @@ section{
     align-items: center;
 }
 
-#image-iceberg{
+#image-logo{
     width: 190px;
     object-fit: contain;
     display: block;
-    border: 2px solid rgb(124, 137, 238);
 }
 
 #text-desc{
@@ -52,10 +51,37 @@ section{
 
 #features{
     margin-top: 20px;
-    line-height: 20px;
-    word-wrap: break-word;
     border: 2px solid brown;
     padding: 5px;
+}
+
+#f-iceberg{
+    text-align: center;
+    width: 100%;
+    line-height: 40px;
+    word-wrap: break-word;
+}
+
+#f-title{
+    width: 100%;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+#image-iceberg{
+    width: 230px;
+    display: inline-block;
+    border: 0;
+}
+
+#credits{
+    width: 100%;
+    line-height: 20px;
+}
+
+#credits a{
+    text-decoration: none;
+    color: rgb(53, 119, 243);
 }
 
 footer{
